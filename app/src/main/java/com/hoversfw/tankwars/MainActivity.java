@@ -33,11 +33,11 @@ public class MainActivity extends AppCompatActivity {
                 AlertDialog.Builder builder=new AlertDialog.Builder(MainActivity.this);
                 builder.setTitle("Tutorial").setMessage("Use 4 buttons to move your tank, use the middle button to fire. Your goal is to get the energy cube!\n\nTips: stars are places where you can go.\nYou can't go through bricks, but you can destroy them. Your goal is to get the treasure.").setPositiveButton("Ok", new DialogInterface.OnClickListener() {
                     @Override
-                    public void onClick(DialogInterface dialog, int which) {
+                    public void onClick(DialogInterface dialog, int which) { //Pin,Tulumbas, Avalanche, Rupture,Tsar!
 
                     }
                 }).create().show();
             }
         });
-    }
+    } 
 }
